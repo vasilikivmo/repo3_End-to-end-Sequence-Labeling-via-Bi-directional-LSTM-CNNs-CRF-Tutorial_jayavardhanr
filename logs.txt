@@ -1,0 +1,487 @@
+Found 17493 unique words (203621 in total)
+Found 75 unique characters
+Found 19 unique named entity tags
+14041 / 3250 / 3453 sentences in train / dev / test.
+Loaded 400000 pretrained embeddings.
+word_to_id:  17493
+main.py:312: UserWarning: nn.init.uniform is now deprecated in favor of nn.init.uniform_.
+  nn.init.uniform(input_embedding, -bias, bias)
+main.py:347: UserWarning: nn.init.uniform is now deprecated in favor of nn.init.uniform_.
+  nn.init.uniform(weight, -sampling_range, sampling_range)
+main.py:352: UserWarning: nn.init.uniform is now deprecated in favor of nn.init.uniform_.
+  nn.init.uniform(weight, -sampling_range, sampling_range)
+main.py:360: UserWarning: nn.init.uniform is now deprecated in favor of nn.init.uniform_.
+  nn.init.uniform(weight, -sampling_range, sampling_range)
+main.py:363: UserWarning: nn.init.uniform is now deprecated in favor of nn.init.uniform_.
+  nn.init.uniform(weight, -sampling_range, sampling_range)
+main.py:319: UserWarning: nn.init.uniform is now deprecated in favor of nn.init.uniform_.
+  nn.init.uniform(input_linear.weight, -bias, bias)
+Model Initialized!!!
+main.py:992: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(model.parameters(), gradient_clip)
+2000 :  tensor(0.4601)
+4000 :  tensor(0.1909)
+6000 :  tensor(0.1647)
+8000 :  tensor(0.1471)
+10000 :  tensor(0.1194)
+12000 :  tensor(0.1282)
+14000 :  tensor(0.1096)
+16000 :  tensor(0.1113)
+18000 :  tensor(0.0985)
+20000 :  tensor(0.1024)
+22000 :  tensor(0.0843)
+24000 :  tensor(0.0956)
+26000 :  tensor(0.0911)
+28000 :  tensor(0.0797)
+30000 :  tensor(0.0730)
+32000 :  tensor(0.0704)
+34000 :  tensor(0.0725)
+36000 :  tensor(0.0773)
+38000 :  tensor(0.0737)
+40000 :  tensor(0.0747)
+42000 :  tensor(0.0670)
+44000 :  tensor(0.0535)
+46000 :  tensor(0.0612)
+48000 :  tensor(0.0626)
+50000 :  tensor(0.0523)
+52000 :  tensor(0.0706)
+54000 :  tensor(0.0622)
+56000 :  tensor(0.0541)
+Train: new_F: 0.9644241830343828 best_F: -1.0
+Dev: new_F: 0.8944876564085222 best_F: -1.0
+Saving Model to  ./models/self-trained-model
+Test: new_F: 0.8396293656450464 best_F: -1.0
+58000 :  tensor(0.0443)
+60000 :  tensor(0.0479)
+62000 :  tensor(0.0514)
+64000 :  tensor(0.0584)
+66000 :  tensor(0.0516)
+68000 :  tensor(0.0433)
+70000 :  tensor(0.0435)
+72000 :  tensor(0.0542)
+74000 :  tensor(0.0375)
+76000 :  tensor(0.0492)
+78000 :  tensor(0.0465)
+80000 :  tensor(0.0465)
+82000 :  tensor(0.0376)
+84000 :  tensor(0.0401)
+86000 :  tensor(0.0451)
+88000 :  tensor(0.0439)
+90000 :  tensor(0.0345)
+92000 :  tensor(0.0349)
+94000 :  tensor(0.0406)
+96000 :  tensor(0.0440)
+98000 :  tensor(0.0471)
+100000 :  tensor(0.0351)
+102000 :  tensor(0.0369)
+104000 :  tensor(0.0333)
+106000 :  tensor(0.0368)
+108000 :  tensor(0.0349)
+110000 :  tensor(0.0322)
+112000 :  tensor(0.0309)
+Train: new_F: 0.9799731268795189 best_F: 0.9644241830343828
+Dev: new_F: 0.9175633313564348 best_F: 0.8944876564085222
+Saving Model to  ./models/self-trained-model
+Test: new_F: 0.8584434130667619 best_F: 0.8396293656450464
+114000 :  tensor(0.0399)
+116000 :  tensor(0.0275)
+118000 :  tensor(0.0217)
+120000 :  tensor(0.0346)
+122000 :  tensor(0.0399)
+124000 :  tensor(0.0279)
+126000 :  tensor(0.0355)
+128000 :  tensor(0.0307)
+130000 :  tensor(0.0275)
+132000 :  tensor(0.0347)
+134000 :  tensor(0.0260)
+136000 :  tensor(0.0243)
+138000 :  tensor(0.0317)
+140000 :  tensor(0.0333)
+142000 :  tensor(0.0277)
+144000 :  tensor(0.0273)
+146000 :  tensor(0.0304)
+148000 :  tensor(0.0204)
+150000 :  tensor(0.0295)
+152000 :  tensor(0.0189)
+154000 :  tensor(0.0276)
+156000 :  tensor(0.0248)
+158000 :  tensor(0.0241)
+160000 :  tensor(0.0249)
+162000 :  tensor(0.0266)
+164000 :  tensor(0.0233)
+166000 :  tensor(0.0207)
+168000 :  tensor(0.0239)
+Train: new_F: 0.9872894007251013 best_F: 0.9799731268795189
+Dev: new_F: 0.900211954217889 best_F: 0.9175633313564348
+Test: new_F: 0.8386751182930096 best_F: 0.8584434130667619
+170000 :  tensor(0.0306)
+172000 :  tensor(0.0266)
+174000 :  tensor(0.0281)
+176000 :  tensor(0.0210)
+178000 :  tensor(0.0215)
+180000 :  tensor(0.0246)
+182000 :  tensor(0.0193)
+184000 :  tensor(0.0194)
+186000 :  tensor(0.0240)
+188000 :  tensor(0.0211)
+190000 :  tensor(0.0242)
+192000 :  tensor(0.0224)
+194000 :  tensor(0.0238)
+196000 :  tensor(0.0257)
+198000 :  tensor(0.0170)
+200000 :  tensor(0.0185)
+202000 :  tensor(0.0166)
+204000 :  tensor(0.0173)
+206000 :  tensor(0.0203)
+208000 :  tensor(0.0249)
+210000 :  tensor(0.0208)
+212000 :  tensor(0.0242)
+214000 :  tensor(0.0211)
+216000 :  tensor(0.0200)
+218000 :  tensor(0.0165)
+220000 :  tensor(0.0151)
+222000 :  tensor(0.0181)
+224000 :  tensor(0.0159)
+Train: new_F: 0.990170785271103 best_F: 0.9872894007251013
+Dev: new_F: 0.9203389830508476 best_F: 0.9175633313564348
+Saving Model to  ./models/self-trained-model
+Test: new_F: 0.8585200392751942 best_F: 0.8584434130667619
+226000 :  tensor(0.0175)
+228000 :  tensor(0.0154)
+230000 :  tensor(0.0201)
+232000 :  tensor(0.0167)
+234000 :  tensor(0.0168)
+236000 :  tensor(0.0171)
+238000 :  tensor(0.0168)
+240000 :  tensor(0.0150)
+242000 :  tensor(0.0154)
+244000 :  tensor(0.0134)
+246000 :  tensor(0.0158)
+248000 :  tensor(0.0146)
+250000 :  tensor(0.0199)
+252000 :  tensor(0.0197)
+254000 :  tensor(0.0127)
+256000 :  tensor(0.0144)
+258000 :  tensor(0.0222)
+260000 :  tensor(0.0181)
+262000 :  tensor(0.0173)
+264000 :  tensor(0.0203)
+266000 :  tensor(0.0114)
+268000 :  tensor(0.0131)
+270000 :  tensor(0.0132)
+272000 :  tensor(0.0192)
+274000 :  tensor(0.0183)
+276000 :  tensor(0.0103)
+278000 :  tensor(0.0120)
+280000 :  tensor(0.0161)
+282000 :  tensor(0.0171)
+284000 :  tensor(0.0123)
+286000 :  tensor(0.0162)
+288000 :  tensor(0.0165)
+290000 :  tensor(0.0123)
+292000 :  tensor(0.0177)
+294000 :  tensor(0.0159)
+Train: new_F: 0.9936881610371887 best_F: 0.990170785271103
+Dev: new_F: 0.9177027827116637 best_F: 0.9203389830508476
+Test: new_F: 0.8613385546457815 best_F: 0.8585200392751942
+296000 :  tensor(0.0138)
+298000 :  tensor(0.0134)
+300000 :  tensor(0.0161)
+302000 :  tensor(0.0111)
+304000 :  tensor(0.0135)
+306000 :  tensor(0.0145)
+308000 :  tensor(0.0123)
+Train: new_F: 0.994007634401723 best_F: 0.9936881610371887
+Dev: new_F: 0.9221760162946618 best_F: 0.9203389830508476
+Saving Model to  ./models/self-trained-model
+Test: new_F: 0.8645161290322582 best_F: 0.8613385546457815
+310000 :  tensor(0.0174)
+312000 :  tensor(0.0123)
+314000 :  tensor(0.0115)
+316000 :  tensor(0.0111)
+318000 :  tensor(0.0104)
+320000 :  tensor(0.0129)
+322000 :  tensor(0.0092)
+Train: new_F: 0.994347631337585 best_F: 0.994007634401723
+Dev: new_F: 0.9203285073236813 best_F: 0.9221760162946618
+Test: new_F: 0.8659168005713265 best_F: 0.8645161290322582
+324000 :  tensor(0.0136)
+326000 :  tensor(0.0108)
+328000 :  tensor(0.0134)
+330000 :  tensor(0.0150)
+332000 :  tensor(0.0115)
+334000 :  tensor(0.0134)
+336000 :  tensor(0.0120)
+Train: new_F: 0.9942637807868643 best_F: 0.994347631337585
+Dev: new_F: 0.9183241641980533 best_F: 0.9221760162946618
+Test: new_F: 0.857957075429691 best_F: 0.8659168005713265
+338000 :  tensor(0.0114)
+340000 :  tensor(0.0181)
+342000 :  tensor(0.0165)
+344000 :  tensor(0.0116)
+346000 :  tensor(0.0104)
+348000 :  tensor(0.0096)
+350000 :  tensor(0.0129)
+Train: new_F: 0.9951585727387122 best_F: 0.994347631337585
+Dev: new_F: 0.9218525103716874 best_F: 0.9221760162946618
+Test: new_F: 0.8664285714285714 best_F: 0.8659168005713265
+352000 :  tensor(0.0129)
+354000 :  tensor(0.0139)
+356000 :  tensor(0.0106)
+358000 :  tensor(0.0092)
+360000 :  tensor(0.0101)
+362000 :  tensor(0.0076)
+364000 :  tensor(0.0114)
+Train: new_F: 0.9956283453820399 best_F: 0.9951585727387122
+Dev: new_F: 0.919783381282789 best_F: 0.9221760162946618
+Test: new_F: 0.8593596718095069 best_F: 0.8664285714285714
+366000 :  tensor(0.0103)
+368000 :  tensor(0.0093)
+370000 :  tensor(0.0110)
+372000 :  tensor(0.0109)
+374000 :  tensor(0.0105)
+376000 :  tensor(0.0121)
+378000 :  tensor(0.0116)
+Train: new_F: 0.9956706263729233 best_F: 0.9956283453820399
+Dev: new_F: 0.9177327798017453 best_F: 0.9221760162946618
+Test: new_F: 0.8590328059354609 best_F: 0.8664285714285714
+380000 :  tensor(0.0105)
+382000 :  tensor(0.0094)
+384000 :  tensor(0.0081)
+386000 :  tensor(0.0097)
+388000 :  tensor(0.0096)
+390000 :  tensor(0.0137)
+392000 :  tensor(0.0094)
+Train: new_F: 0.9961832874901384 best_F: 0.9956706263729233
+Dev: new_F: 0.9186538136309825 best_F: 0.9221760162946618
+Test: new_F: 0.8572192037053532 best_F: 0.8664285714285714
+394000 :  tensor(0.0071)
+396000 :  tensor(0.0088)
+398000 :  tensor(0.0098)
+400000 :  tensor(0.0137)
+402000 :  tensor(0.0101)
+404000 :  tensor(0.0125)
+406000 :  tensor(0.0095)
+Train: new_F: 0.9961826363268005 best_F: 0.9961832874901384
+Dev: new_F: 0.9185348109297014 best_F: 0.9221760162946618
+Test: new_F: 0.8592579379236532 best_F: 0.8664285714285714
+408000 :  tensor(0.0083)
+410000 :  tensor(0.0137)
+412000 :  tensor(0.0095)
+414000 :  tensor(0.0080)
+416000 :  tensor(0.0129)
+418000 :  tensor(0.0084)
+420000 :  tensor(0.0118)
+Train: new_F: 0.9965232600302882 best_F: 0.9961832874901384
+Dev: new_F: 0.9198305084745763 best_F: 0.9221760162946618
+Test: new_F: 0.8551268310110755 best_F: 0.8664285714285714
+422000 :  tensor(0.0078)
+424000 :  tensor(0.0087)
+426000 :  tensor(0.0086)
+428000 :  tensor(0.0072)
+430000 :  tensor(0.0092)
+432000 :  tensor(0.0097)
+434000 :  tensor(0.0076)
+Train: new_F: 0.9970142887609299 best_F: 0.9965232600302882
+Dev: new_F: 0.9200845665961945 best_F: 0.9221760162946618
+Test: new_F: 0.859180035650624 best_F: 0.8664285714285714
+436000 :  tensor(0.0086)
+438000 :  tensor(0.0100)
+440000 :  tensor(0.0096)
+442000 :  tensor(0.0105)
+444000 :  tensor(0.0100)
+446000 :  tensor(0.0091)
+448000 :  tensor(0.0111)
+Train: new_F: 0.9970568162429619 best_F: 0.9970142887609299
+Dev: new_F: 0.9184105735829874 best_F: 0.9221760162946618
+Test: new_F: 0.8538482166800752 best_F: 0.8664285714285714
+450000 :  tensor(0.0121)
+452000 :  tensor(0.0080)
+454000 :  tensor(0.0131)
+456000 :  tensor(0.0058)
+458000 :  tensor(0.0114)
+460000 :  tensor(0.0085)
+462000 :  tensor(0.0122)
+Train: new_F: 0.9971846606662971 best_F: 0.9970568162429619
+Dev: new_F: 0.9236628300609343 best_F: 0.9221760162946618
+Saving Model to  ./models/self-trained-model
+Test: new_F: 0.8593889583705556 best_F: 0.8664285714285714
+464000 :  tensor(0.0086)
+466000 :  tensor(0.0083)
+468000 :  tensor(0.0070)
+470000 :  tensor(0.0069)
+472000 :  tensor(0.0101)
+474000 :  tensor(0.0070)
+476000 :  tensor(0.0087)
+Train: new_F: 0.9972700904282547 best_F: 0.9971846606662971
+Dev: new_F: 0.9219450317124736 best_F: 0.9236628300609343
+Test: new_F: 0.8637417513822008 best_F: 0.8664285714285714
+478000 :  tensor(0.0070)
+480000 :  tensor(0.0111)
+482000 :  tensor(0.0108)
+484000 :  tensor(0.0053)
+486000 :  tensor(0.0080)
+488000 :  tensor(0.0085)
+490000 :  tensor(0.0079)
+Train: new_F: 0.9973555129025379 best_F: 0.9972700904282547
+Dev: new_F: 0.9216847090663058 best_F: 0.9236628300609343
+Test: new_F: 0.8665774207942883 best_F: 0.8664285714285714
+492000 :  tensor(0.0063)
+494000 :  tensor(0.0097)
+496000 :  tensor(0.0068)
+498000 :  tensor(0.0098)
+500000 :  tensor(0.0068)
+502000 :  tensor(0.0091)
+504000 :  tensor(0.0067)
+Train: new_F: 0.9977394864795701 best_F: 0.9973555129025379
+Dev: new_F: 0.9213940473162046 best_F: 0.9236628300609343
+Test: new_F: 0.8611558418321703 best_F: 0.8665774207942883
+506000 :  tensor(0.0068)
+508000 :  tensor(0.0092)
+510000 :  tensor(0.0069)
+512000 :  tensor(0.0079)
+514000 :  tensor(0.0078)
+516000 :  tensor(0.0114)
+518000 :  tensor(0.0065)
+Train: new_F: 0.997397832949407 best_F: 0.9977394864795701
+Dev: new_F: 0.9215336223752445 best_F: 0.9236628300609343
+Test: new_F: 0.8601436265709157 best_F: 0.8665774207942883
+520000 :  tensor(0.0103)
+522000 :  tensor(0.0051)
+524000 :  tensor(0.0080)
+526000 :  tensor(0.0104)
+528000 :  tensor(0.0053)
+530000 :  tensor(0.0056)
+532000 :  tensor(0.0061)
+Train: new_F: 0.9977182095408696 best_F: 0.9977394864795701
+Dev: new_F: 0.9237015733378446 best_F: 0.9236628300609343
+Saving Model to  ./models/self-trained-model
+Test: new_F: 0.8660363895825902 best_F: 0.8665774207942883
+534000 :  tensor(0.0069)
+536000 :  tensor(0.0082)
+538000 :  tensor(0.0086)
+540000 :  tensor(0.0109)
+542000 :  tensor(0.0072)
+544000 :  tensor(0.0045)
+546000 :  tensor(0.0091)
+Train: new_F: 0.9980168461456446 best_F: 0.9977394864795701
+Dev: new_F: 0.922373656141539 best_F: 0.9237015733378446
+Test: new_F: 0.8655304720264122 best_F: 0.8665774207942883
+548000 :  tensor(0.0061)
+550000 :  tensor(0.0056)
+552000 :  tensor(0.0062)
+554000 :  tensor(0.0081)
+556000 :  tensor(0.0073)
+558000 :  tensor(0.0070)
+560000 :  tensor(0.0066)
+Train: new_F: 0.9979315492056722 best_F: 0.9980168461456446
+Dev: new_F: 0.923076923076923 best_F: 0.9237015733378446
+Test: new_F: 0.8674806167008288 best_F: 0.8665774207942883
+562000 :  tensor(0.0060)
+564000 :  tensor(0.0084)
+566000 :  tensor(0.0062)
+568000 :  tensor(0.0041)
+570000 :  tensor(0.0068)
+572000 :  tensor(0.0060)
+574000 :  tensor(0.0089)
+Train: new_F: 0.9979529170931422 best_F: 0.9980168461456446
+Dev: new_F: 0.9239884882342984 best_F: 0.9237015733378446
+Saving Model to  ./models/self-trained-model
+Test: new_F: 0.8650864373551953 best_F: 0.8674806167008288
+576000 :  tensor(0.0053)
+578000 :  tensor(0.0046)
+580000 :  tensor(0.0066)
+582000 :  tensor(0.0055)
+584000 :  tensor(0.0091)
+586000 :  tensor(0.0078)
+588000 :  tensor(0.0087)
+Train: new_F: 0.9982300130083381 best_F: 0.9980168461456446
+Dev: new_F: 0.9273988830597394 best_F: 0.9239884882342984
+Saving Model to  ./models/self-trained-model
+Test: new_F: 0.8661192431274545 best_F: 0.8674806167008288
+590000 :  tensor(0.0071)
+592000 :  tensor(0.0046)
+594000 :  tensor(0.0048)
+596000 :  tensor(0.0064)
+598000 :  tensor(0.0078)
+600000 :  tensor(0.0084)
+602000 :  tensor(0.0065)
+Train: new_F: 0.9979741976756584 best_F: 0.9982300130083381
+Dev: new_F: 0.9255346124587946 best_F: 0.9273988830597394
+Test: new_F: 0.8683788121990369 best_F: 0.8674806167008288
+604000 :  tensor(0.0065)
+606000 :  tensor(0.0056)
+608000 :  tensor(0.0058)
+610000 :  tensor(0.0064)
+612000 :  tensor(0.0054)
+614000 :  tensor(0.0067)
+616000 :  tensor(0.0075)
+Train: new_F: 0.9982084968435421 best_F: 0.9982300130083381
+Dev: new_F: 0.9211618257261411 best_F: 0.9273988830597394
+Test: new_F: 0.8617581436858545 best_F: 0.8683788121990369
+618000 :  tensor(0.0061)
+620000 :  tensor(0.0074)
+622000 :  tensor(0.0062)
+624000 :  tensor(0.0051)
+626000 :  tensor(0.0053)
+628000 :  tensor(0.0065)
+630000 :  tensor(0.0082)
+Train: new_F: 0.9982724422547827 best_F: 0.9982300130083381
+Dev: new_F: 0.9250042322668022 best_F: 0.9273988830597394
+Test: new_F: 0.8661726631550755 best_F: 0.8683788121990369
+632000 :  tensor(0.0065)
+634000 :  tensor(0.0081)
+636000 :  tensor(0.0059)
+638000 :  tensor(0.0058)
+640000 :  tensor(0.0054)
+642000 :  tensor(0.0058)
+644000 :  tensor(0.0034)
+Train: new_F: 0.9981231871694249 best_F: 0.9982724422547827
+Dev: new_F: 0.9183794299247231 best_F: 0.9273988830597394
+Test: new_F: 0.8596616206589492 best_F: 0.8683788121990369
+646000 :  tensor(0.0079)
+648000 :  tensor(0.0042)
+650000 :  tensor(0.0045)
+652000 :  tensor(0.0037)
+654000 :  tensor(0.0110)
+656000 :  tensor(0.0044)
+658000 :  tensor(0.0076)
+Train: new_F: 0.998549921098648 best_F: 0.9982724422547827
+Dev: new_F: 0.9217758985200845 best_F: 0.9273988830597394
+Test: new_F: 0.8643207126948774 best_F: 0.8683788121990369
+660000 :  tensor(0.0086)
+662000 :  tensor(0.0045)
+664000 :  tensor(0.0073)
+666000 :  tensor(0.0054)
+668000 :  tensor(0.0053)
+670000 :  tensor(0.0069)
+672000 :  tensor(0.0067)
+Train: new_F: 0.9986992771392627 best_F: 0.998549921098648
+Dev: new_F: 0.9257287705956907 best_F: 0.9273988830597394
+Test: new_F: 0.8710683417980932 best_F: 0.8683788121990369
+674000 :  tensor(0.0062)
+676000 :  tensor(0.0049)
+678000 :  tensor(0.0049)
+680000 :  tensor(0.0061)
+682000 :  tensor(0.0046)
+684000 :  tensor(0.0044)
+686000 :  tensor(0.0045)
+688000 :  tensor(0.0059)
+Train: new_F: 0.9987631152435383 best_F: 0.9986992771392627
+Dev: new_F: 0.9249386477109249 best_F: 0.9273988830597394
+Test: new_F: 0.8672740264380137 best_F: 0.8710683417980932
+35833.35683012009
+Prediction:
+word : tag
+Jay : PER
+is : NA
+from : NA
+India : LOC
+
+
+Donald : PER
+is : NA
+the : NA
+president : NA
+of : NA
+USA : LOC

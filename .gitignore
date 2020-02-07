@@ -1,0 +1,14 @@
+.ipynb_checkpoints/*
+data/glove.6B.100d.txt
+!.gitignore
+
+/venv
+/models
+/data/eng.train54019
+/data/glove.6B.50d.txt
+/data/glove.6B.100d.txt
+/data/glove.6B.200d.txt
+/data/glove.6B.300d.txt
+/data/eng.testa
+/data/eng.testb
+/data/eng.train
